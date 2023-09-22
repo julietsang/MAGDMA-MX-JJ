@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+          // "name": "MAGDMA-aislado",
+         //  "name": "FAT",
+         "name": "MAGDMA-DEV",
+           
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+          //"environmentName": "MAGDMA-aislado",
+          "environmentName": "MAGDMA-DEV",
+        
+           "schemaUpdateMode": "ForceSync",
+         // "environmentName": "FAT",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true
+        }
+    ]
+}
